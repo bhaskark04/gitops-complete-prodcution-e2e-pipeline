@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: complete-prodcution-e2e-app
-          image: bhaskark04/complete-prodcution-e2e-pipeline:1.0.0-22
+          image: bhaskark04/complete-prodcution-e2e-pipeline:1.0.0-24
           resources:
             limits:
               memory: "256Mi"
