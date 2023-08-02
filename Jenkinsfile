@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label "jenkins-agent"
-    }
+    agent any
     environment {
         APP_NAME = "complete-prodcution-e2e-pipeline"
     }
